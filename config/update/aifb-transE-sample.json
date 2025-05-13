@@ -1,0 +1,21 @@
+{
+	"model_path": "out/aifb-transE/model.pickle",
+	"nodes": [
+		"http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id42instance",
+		"http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id308instance",
+		"http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id857instance",
+		"http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id1384"
+	],
+	"relations": [
+		"http://swrc.ontoware.org/ontology#publication"
+	],
+	"updates": {
+		"remove": [
+			[0, 0, 1]
+		],
+		"add": [
+			[0, 0, 2],
+			[0, 0, 3]
+		]
+	}
+}
