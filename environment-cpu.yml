@@ -6,9 +6,9 @@ channels:
 
 dependencies:
   - python=3.12
-  - pytorch=2.7.0
-  - torchvision
-  - torchaudio
+  - pytorch=2.1.0  # or 2.0.1 for wider compatibility; 2.7.0 is very recent
+  - torchvision=0.16.0
+  - torchaudio=2.1.0
   - filelock=3.18.0
   - fsspec=2025.3.2
   - jinja2=3.1.6
