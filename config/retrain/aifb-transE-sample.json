@@ -7,7 +7,7 @@
 		"max_depth": 5,
 		"spawn_rate": 0.5
 	},
-	"epochs": 2,
+	"epochs": 5,
 	"base_nodes": [
 		"http://www.aifb.uni-karlsruhe.de/Personen/viewPersonOWL/id42instance",
 		"http://www.aifb.uni-karlsruhe.de/Publikationen/viewPublikationOWL/id308instance",
